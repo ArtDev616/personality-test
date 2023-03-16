@@ -1,4 +1,6 @@
+import { Provider } from "react-redux";
 import Router from "./router";
+import { store } from "./store/store";
 
 const AppRoot = () => {
   return <Router />;
@@ -6,7 +8,9 @@ const AppRoot = () => {
 
 function App() {
   return (
-    <AppRoot />
+    <Provider store={store}>
+      <AppRoot />
+    </Provider>
   );
 }
 
