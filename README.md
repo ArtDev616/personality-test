@@ -1,6 +1,6 @@
 ### Full-Stack Personality Test Project
 #### Introduction
-This is a Full-Stack Personality Test Project that allows users to take a personality test and get their results. The application is built using React and Node.js, with a PostgreSQL database for data storage.
+This is a Full-Stack Personality Test Project that allows users to take a personality test and get their results. The application is built using React and Node.js, with a SQLite3 database for data storage.
 #### Installation
 To install the application, follow these steps:
 1. Clone the repository from GitHub:
